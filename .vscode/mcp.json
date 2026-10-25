@@ -1,0 +1,15 @@
+{
+  "servers": {
+    "sewasetu-citizen": {
+      "type": "http",
+      "url": "http://localhost:8001/mcp"
+    },
+    "sewasetu-officer": {
+      "type": "http",
+      "url": "http://localhost:8002/mcp",
+      "headers": {
+        "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjJlNjVmNWUyZDdjNTAyMTEiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwMDAvIiwic3ViIjoib2ZmaWNlcjphZG1pbiIsImF1ZCI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODAwMi9tY3AiLCJzY29wZSI6Im9mZmljZXIiLCJyb2xlIjoib2ZmaWNlciIsImNsaWVudF9pZCI6ImFkbWluLWlzc3VlZCIsImlhdCI6MTc5Mjc4NDExNywiZXhwIjoxODAwNTYwMTE3LCJqdGkiOiI5MTc0YjdiZDllZjQ3YTIxZGQ2NTc2YmIiLCJraW5kIjoicHJvZ3JhbSJ9.txku0lNodUjMElGtVqEXAc2aZW9ikO9RVxUBGfFMfCxOfopkiJ-63MCYrDO6ldDH37wooOtMjCGceDpvjiK_6MLPwLBIM9hmYXpIOww-zFZFm0CB95PCGH-B5i_CzeQ3TsWAqonReRN1fmyKDyOj1EmnYKYwJZkwYCyKfxu2kpDg7_UKOtZ602yVDplb7iXTyEt8NNTGIjpjPy02vVpRCNACJqPuccmLq_EsmWxuGEURL2ixM4RsTZVT_SCg88jiMm_0-awMv6lkemBN1vCW9jdpHHPtRXCLBo_pkLfMDi-pBGeL-RcdMvaRdgits0Lnp1wYx9KO50W08n7u0UhDSA"
+      }
+    }
+  }
+}

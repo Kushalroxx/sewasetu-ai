@@ -22,6 +22,9 @@ services:
       # the address at which people reach this portal; stamped into sign-in tokens and
       # discovery documents, so it must be the public one when deployed
       PUBLIC_BASE_URL: ${PUBLIC_BASE_URL:-http://localhost:8000}
+      
+      CITIZEN_RESOURCE_URL: ${CITIZEN_RESOURCE_URL:-http://localhost:8001/mcp}
+      OFFICER_RESOURCE_URL: ${OFFICER_RESOURCE_URL:-http://localhost:8002/mcp}
       MCP_ENABLED_BLOCKS: ${MCP_ENABLED_BLOCKS:-Sonari,Rajapara,Dhemaji Pathar,Borgaon,Namti,Khelua}
     depends_on:
       - db
